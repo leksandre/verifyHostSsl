@@ -21,7 +21,16 @@ from datetime import timezone
 from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
 from urllib3.exceptions import InsecureRequestWarning
-from some import HOSTS
+
+
+# from some import HOSTS
+# example
+HOSTS = [
+    ('блабла1.ру', 443),
+    ('bal.bla.com', 443),
+]
+
+
 
 try:
     import requests
